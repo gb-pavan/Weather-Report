@@ -1,0 +1,35 @@
+.weather-report-card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 80%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255,255,255, 0.2);
+  height: 40vh;
+}
+
+.error-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    color:yellow;
+  }
+
+  @media (max-width: 576px) {
+    .weather-report-card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        width: 90%;
+        border-radius: 12px;
+        background-color: rgba(255,255,255, 0.3);
+        height: 50vh;
+      }
+  }
+  
+
